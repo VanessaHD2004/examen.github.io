@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 7px ;
+}
+
+body{
+    background-color: rgb(255, 232, 202);
+}
+
+.container{
+    background-color: rgb(255, 226, 167);
+}
+
+img{
+    max-width: 100%;
+}
+
+main{
+    margin: 0;
+    padding: 7px ;
+}
+
+.accordion-button{
+    background-color: rgb(255, 232, 202);
+}
+
+.accordion-item{
+    background-color: rgb(255, 232, 202);
+}
+
+footer{
+    background: #fff9df ;
+    padding: 5px 0 5px 0;
+    font-size: 13px;
+    text-align: center;
+}
+
+@media all and (max-width: 550px){
+    .main{
+        flex-direction: column;
+    }
+    main{
+        padding: 1em 0 1em 0;
+    }
+}
